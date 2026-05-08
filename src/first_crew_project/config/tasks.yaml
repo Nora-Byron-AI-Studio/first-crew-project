@@ -1,0 +1,15 @@
+research_task:
+  description: >
+    Research how {niche} businesses handle calls.
+    Focus on problems related to: {goal}.
+  expected_output: >
+    5 key pain points tied to missed calls, bookings, and admin issues.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Write a {tone} business summary for a {niche} owner.
+    The goal is to: {goal}.
+  expected_output: >
+    A short, clear summary (max 200 words) aligned to the goal.
+  agent: reporting_analyst

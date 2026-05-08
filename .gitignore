@@ -1,3 +1,19 @@
+#Environment
 .env
+
+#Python Cache
 __pycache__/
+*.pyc
+
+#OS
 .DS_Store
+
+# Virtual env
+.venv/
+env/
+
+# Generated Outputs
+*.txt
+
+# Lock files (optional for now)
+uv.lock
